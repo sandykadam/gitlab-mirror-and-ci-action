@@ -10,6 +10,6 @@ LABEL "homepage"="https://github.com/SvanBoxel/gitlab-mirror-and-ci-action"
 LABEL "maintainer"="Sebass van Boxel <hello@svboxel.com>"
 
 
-COPY entrypoint.sh /entrypoint.sh
+COPY entrypoint_new.sh /entrypoint_new.sh
 COPY cred-helper.sh /cred-helper.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint_new.sh"]
